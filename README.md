@@ -1,5 +1,5 @@
 
-# EDA Project - King County real estate data 
+# EDA Project - King County real estate
 Bootcamp EDA project
 
 
@@ -22,6 +22,14 @@ The client was choosen from the list and some details were provided, namely:
 - psycopg2-binary - 2.9.7
 - SQLAlchemy - 2.0.15
 - missingno - 0.5.2
+
+## Files and folders
+
+- EDA_project.ipynb - Jupyter notebook with all the code, used to investigate the dataset and visualize findings.
+- EDA_project.pdf - PDF version of the presentation
+- requirements.txt - list of required libraries
+- img/ - folder, containing sources of images used in EDA_project.pdf
+- assignment.md - description of the assignment and deliverables
 
 
 
