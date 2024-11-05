@@ -1,42 +1,31 @@
-[![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
 
-Template for creating ds simple projects
+# EDA Project - King County real estate data 
+Bootcamp EDA project
 
-## Requirements
 
-- pyenv
-- python==3.11.3
+## Objective
 
-## Setup
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+Within the scope of this project the real estate trade data (2014-05 to 2015-05) from King County (WA) were inspected and suggestions for the client were given.
+The client was choosen from the list and some details were provided, namely:
 
-* setting the python version locally to 3.11.3
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
+**Erin Robinson |	*Buyer*	|    Invest in poor neighborhood, buying & selling, costs back + little profit, socially responsible**
 
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
 
-```bash
-pip freeze > requirements.txt
-```
+## Requirements (from requirements.txt)
+- altair - 5.3.0
+- seaborn - 0.13.2
+- jupyterlab - 4.0.1
+- ipywidgets - 8.0.6
+- jupyterlab-dash - 0.1.0a3
+- python-dotenv - 1.0.0
+- psycopg2-binary - 2.9.7
+- SQLAlchemy - 2.0.15
+- missingno - 0.5.2
 
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
 
-### Unit testing (Optional)
 
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
-
-## Set up your Environment
+## Setup Environment
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need.
 
 Before you can start with plotly in Jupyter Lab you have to install node.js (if you haven't done it before).
